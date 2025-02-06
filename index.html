@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>VibeKultur</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="" name="keywords" />
+        <meta content="" name="description" />
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Poppins:wght@600;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/intl-tel-input@25.2.0/build/css/intlTelInput.css"
+        />
+        <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@25.2.0/build/js/intlTelInput.min.js"></script>
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div class="spinner-grow text-primary" role="status"></div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Topbar Start -->
+        <div class="container-fluid bg-light p-0">
+            <div class="row gx-0 d-none d-lg-flex">
+                <div class="col-lg-7 px-5 text-start">
+                    <div
+                        class="h-100 d-inline-flex align-items-center border-start border-end px-3"
+                    >
+                        <small class="fa fa-phone-alt me-2"></small>
+                        <small>+493411497816</small>
+                    </div>
+                    <div
+                        class="h-100 d-inline-flex align-items-center border-end px-3"
+                    >
+                        <small class="far fa-envelope-open me-2"></small>
+                        <small>vibe_kultur@gmail.com</small>
+                    </div>
+                    <div
+                        class="h-100 d-inline-flex align-items-center border-end px-3"
+                    >
+                        <small class="far fa-clock me-2"></small>
+                        <small>Mo - Fr: 09:00 - 21:00</small>
+                    </div>
+                </div>
+                <div class="col-lg-5 px-5 text-end">
+                    <div class="h-100 d-inline-flex align-items-center">
+                        <a
+                            class="btn btn-square border-end border-start"
+                            href="https://www.facebook.com/"
+                            ><i class="fab fa-facebook-f"></i
+                        ></a>
+                        <a
+                            class="btn btn-square border-end"
+                            href="https://x.com/"
+                            ><i class="fab fa-twitter"></i
+                        ></a>
+                        <a
+                            class="btn btn-square border-end"
+                            href="https://ua.linkedin.com/"
+                            ><i class="fab fa-linkedin-in"></i
+                        ></a>
+                        <a
+                            class="btn btn-square border-end"
+                            href="https://www.instagram.com/"
+                            ><i class="fab fa-instagram"></i
+                        ></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Topbar End -->
+
+        <!-- Navbar Start -->
+        <nav
+            class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5 py-lg-0"
+        >
+            <a href="index.html" class="navbar-brand d-flex align-items-center">
+                <h1 class="m-0">VibeKultur</h1>
+            </a>
+            <button
+                type="button"
+                class="navbar-toggler"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-3 py-lg-0">
+                    <a href="index.html" class="nav-item nav-link active"
+                        >Home</a
+                    >
+                    <a href="about.html" class="nav-item nav-link">Über uns</a>
+                    <a href="catalog.html" class="nav-item nav-link">Katalog</a>
+                    <a href="contact.html" class="nav-item nav-link">Kontakt</a>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+
+        <!-- Carousel Start -->
+        <div class="container-fluid p-0 mb-5 wow fadeIn" data-wow-delay="0.1s">
+            <div
+                id="header-carousel"
+                class="carousel slide"
+                data-bs-ride="carousel"
+            >
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img
+                            class="w-100"
+                            src="img/carousel-1.jpg"
+                            alt="Image"
+                        />
+                        <div class="carousel-caption">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-6 col-lg-6">
+                                        <h5
+                                            class="text-light text-uppercase mb-3 animated slideInDown"
+                                        >
+                                            Entdecken Sie die Welt der Kunst
+                                        </h5>
+                                        <h1
+                                            class="display-2 text-light mb-3 animated slideInDown"
+                                        >
+                                            Die Verschmelzung von Sport, Kunst
+                                            und Kultur
+                                        </h1>
+                                        <p>
+                                            Tauchen Sie ein in die faszinierende
+                                            Welt der Kunst, Kultur und Sport.
+                                            Unser Ziel ist es, Ihnen die
+                                            neuesten Trends, Analysen und
+                                            Diskussionen zu präsentieren, die
+                                            sowohl die Kunstszene als auch den
+                                            Sport und die Kultur betreffen.
+                                            Entdecken Sie Veranstaltungen,
+                                            Interviews mit Künstlern und
+                                            Sportlern sowie tiefgründige
+                                            Berichte über bedeutende kulturelle
+                                            Ereignisse. Bleiben Sie informiert
+                                            und lassen Sie sich inspirieren.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+        <!-- Our Approach Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div
+                            class="position-relative overflow-hidden ps-5 pt-5 h-100"
+                            style="min-height: 400px"
+                        >
+                            <img
+                                class="position-absolute w-100 h-100"
+                                src="img/approach.jpg"
+                                alt=""
+                                style="object-fit: cover"
+                            />
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="h-100">
+                            <div
+                                class="border-start border-5 border-primary ps-4 mb-5"
+                            >
+                                <h6 class="text-body text-uppercase mb-2">
+                                    Unser Ansatz
+                                </h6>
+                                <h1 class="display-6 mb-0">
+                                    Die Welt der Kunst, Kultur und Sport
+                                    verstehen
+                                </h1>
+                            </div>
+                            <p>
+                                In einer Welt, die sich ständig verändert, ist
+                                es wichtig, den Überblick über die neuesten
+                                Entwicklungen in den Bereichen Kunst, Sport und
+                                Kultur zu behalten. Unser Ansatz ist es, Ihnen
+                                die relevantesten Nachrichten und tiefgründigen
+                                Analysen zu bieten, die Sie in die dynamischen
+                                Welten dieser Bereiche eintauchen lassen. Wir
+                                setzen uns dafür ein, aktuelle und bedeutende
+                                Ereignisse in der Kunstszene, im Sport und in
+                                der Kultur klar und verständlich zu vermitteln.
+                            </p>
+                            <p class="mb-4">
+                                Wir bieten umfassende Berichterstattung über
+                                wichtige Kunstveranstaltungen, sportliche
+                                Höhepunkte und kulturelle Bewegungen. Egal, ob
+                                Sie an einer Kunstausstellung, einem
+                                internationalen Sportereignis oder kulturellen
+                                Trends interessiert sind – wir bieten Ihnen die
+                                Informationen, die Sie benötigen, um immer einen
+                                Schritt voraus zu sein und die Entwicklungen zu
+                                verstehen, die die Welt von heute prägen.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Our Approach End -->
+
+        <!-- Facts Start -->
+        <div class="container-fluid my-5 p-0">
+            <div class="row g-0">
+                <div class="col-xl-3 col-sm-6 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="position-relative">
+                        <img
+                            class="img-fluid w-100"
+                            src="img/fact-1.jpg"
+                            alt=""
+                        />
+                        <div class="facts-overlay">
+                            <h1 class="display-1">01</h1>
+                            <h4 class="text-white mb-3">
+                                Neueste Kunsttrends und Ausstellungen
+                            </h4>
+                            <p class="text-white">
+                                Erleben Sie die faszinierende Welt der Kunst,
+                                mit den neuesten Trends und Ausstellungen. Wir
+                                bieten Ihnen detaillierte Einblicke in die
+                                bedeutendsten Kunstwerke und die kreativen Köpfe
+                                dahinter. Verpassen Sie keine aktuellen
+                                Nachrichten aus der Kunstwelt.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-sm-6 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="position-relative">
+                        <img
+                            class="img-fluid w-100"
+                            src="img/fact-2.jpg"
+                            alt=""
+                        />
+                        <div class="facts-overlay">
+                            <h1 class="display-1">02</h1>
+                            <h4 class="text-white mb-3">
+                                Wichtige sportliche Höhepunkte
+                            </h4>
+                            <p class="text-white">
+                                Bleiben Sie auf dem Laufenden über die
+                                bedeutendsten sportlichen Ereignisse und
+                                Meisterschaften aus aller Welt. Wir berichten
+                                über alle wichtigen sportlichen Erfolge,
+                                Interviews mit Athleten und bieten Ihnen eine
+                                tiefgründige Analyse der Entwicklungen im
+                                Sportbereich.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-sm-6 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="position-relative">
+                        <img
+                            class="img-fluid w-100"
+                            src="img/fact-3.jpg"
+                            alt=""
+                        />
+                        <div class="facts-overlay">
+                            <h1 class="display-1">03</h1>
+                            <h4 class="text-white mb-3">
+                                Kulturelle Entwicklungen und Einflüsse
+                            </h4>
+                            <p class="text-white">
+                                Entdecken Sie, wie Kultur die Gesellschaft
+                                beeinflusst und wie sich kulturelle Trends
+                                entwickeln. Wir bieten Ihnen detaillierte
+                                Berichte über verschiedene kulturelle Bewegungen
+                                und ihre Auswirkungen auf die globale
+                                Gemeinschaft.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-sm-6 wow fadeIn" data-wow-delay="0.7s">
+                    <div class="position-relative">
+                        <img
+                            class="img-fluid w-100"
+                            src="img/fact-4.jpg"
+                            alt=""
+                        />
+                        <div class="facts-overlay">
+                            <h1 class="display-1">04</h1>
+                            <h4 class="text-white mb-3">
+                                Interaktive Berichterstattung und Interviews
+                            </h4>
+                            <p class="text-white">
+                                Unsere Plattform bietet nicht nur Nachrichten,
+                                sondern auch exklusive Interviews mit Künstlern,
+                                Sportlern und kulturellen Ikonen. Wir
+                                ermöglichen es Ihnen, tiefere Einblicke in ihre
+                                Gedanken und Meinungen zu erhalten und so ein
+                                besseres Verständnis für die Herausforderungen
+                                und Errungenschaften in der Kunst-, Sport- und
+                                Kulturwelt zu entwickeln.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Facts End -->
+
+        <!-- Service Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-4 justify-content-center">
+                    <div
+                        class="col-lg-6 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div
+                            class="service-item bg-light overflow-hidden h-100"
+                        >
+                            <div
+                                class="service-text position-relative text-center h-100 p-4"
+                            >
+                                <h5 class="mb-3">
+                                    Maßgeschneiderte Berichterstattung über
+                                    Kunst, Sport und Kultur
+                                </h5>
+                                <p>
+                                    Unser personalisierter Ansatz hilft Ihnen,
+                                    die Welt von Kunst, Sport und Kultur zu
+                                    verstehen. Wir bieten maßgeschneiderte
+                                    Inhalte, die den Zugang zu den neuesten
+                                    Ereignissen und Entwicklungen erleichtern
+                                    und sicherstellen, dass Sie immer gut
+                                    informiert sind.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <div
+                            class="service-item bg-light overflow-hidden h-100"
+                        >
+                            <div
+                                class="service-text position-relative text-center h-100 p-4"
+                            >
+                                <h5 class="mb-3">
+                                    Benutzerfreundliche Bildungsressourcen zu
+                                    Kunst, Sport und Kultur
+                                </h5>
+                                <p>
+                                    Wir stellen leicht verständliche Inhalte zur
+                                    Verfügung, die Ihnen helfen, mehr über
+                                    Kunst, Sport und Kultur zu lernen, von den
+                                    Grundlagen bis hin zu fortgeschrittenen
+                                    Themen. Unser Ziel ist es, diese Bereiche
+                                    für alle zugänglich zu machen, unabhängig
+                                    von Ihrem Einstiegspunkt.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Service End -->
+
+        <!-- Contact Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5">
+                    <div
+                        class="col-lg-12 wow fadeInUp mx-auto text-center"
+                        data-wow-delay="0.5s"
+                    >
+                        <form action="thanks.html" method="GET">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input
+                                            type="text"
+                                            class="form-control border-0 bg-light"
+                                            id="name"
+                                            placeholder="Ihr Name"
+                                            required
+                                        />
+                                        <label for="name">Ihr Name</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input
+                                            type="email"
+                                            class="form-control border-0 bg-light"
+                                            id="email"
+                                            placeholder="Ihre E-Mail"
+                                            required
+                                        />
+                                        <label for="email">Ihre E-Mail</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <input
+                                            type="text"
+                                            class="form-control border-0 bg-light"
+                                            id="subject"
+                                            placeholder="Betreff"
+                                            required
+                                        />
+                                        <label for="subject">Betreff</label>
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <select
+                                            class="form-control bg-light border-0"
+                                            name="Service-Typ"
+                                            required
+                                        >
+                                            <option value="deportes">
+                                                Sport
+                                            </option>
+                                            <option value="arte">Kunst</option>
+                                            <option value="cultura">
+                                                Kultur
+                                            </option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <input
+                                            class="form-control bg-light border-0"
+                                            required
+                                            style="width: 100% !important"
+                                            type="text"
+                                            inputmode="numeric"
+                                            pattern="^[0-9]+$"
+                                            class="form-control"
+                                            id="phone"
+                                            placeholder="Telefonnummer"
+                                        />
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <textarea
+                                            class="form-control border-0 bg-light"
+                                            placeholder="Hinterlassen Sie hier Ihre Nachricht"
+                                            id="message"
+                                            style="height: 150px"
+                                            required
+                                        ></textarea>
+                                        <label for="message">Nachricht</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button
+                                        class="btn btn-primary py-3 px-5"
+                                        type="submit"
+                                    >
+                                        Nachricht senden
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact End -->
+
+        <!-- News Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="owl-carousel testimonial-carousel">
+                            <div class="testimonial-item">
+                                <img
+                                    class="img-fluid mb-4"
+                                    src="img/news-img-1.jpg"
+                                    alt=""
+                                />
+                                <h5 class="fs-4">
+                                    Neueste Kunstentwicklungen 2025
+                                </h5>
+                                <p class="fs-5">
+                                    Der neueste Bericht über die Entwicklungen
+                                    in der Kunstszene gibt einen tiefen Einblick
+                                    in die Trends und die bedeutendsten Künstler
+                                    des Jahres. Bleiben Sie mit den
+                                    aufregendsten Ereignissen auf dem Laufenden!
+                                </p>
+                                <div
+                                    class="bg-primary mb-3"
+                                    style="width: 60px; height: 5px"
+                                ></div>
+                            </div>
+                            <div class="testimonial-item">
+                                <img
+                                    class="img-fluid mb-4"
+                                    src="img/news-img-2.jpg"
+                                    alt=""
+                                />
+                                <h5 class="fs-4">
+                                    Sportliche Höhepunkte des Jahres
+                                </h5>
+                                <p class="fs-5">
+                                    Der Sportbereich erlebt eine spannende
+                                    Wendung, da neue Talente und Teams die
+                                    internationalen Bühnen betreten. Lesen Sie
+                                    mehr über die kommenden Wettbewerbe und die
+                                    atemberaubenden Leistungen von aufstrebenden
+                                    Athleten.
+                                </p>
+                                <div
+                                    class="bg-primary mb-3"
+                                    style="width: 60px; height: 5px"
+                                ></div>
+                            </div>
+                            <div class="testimonial-item">
+                                <img
+                                    class="img-fluid mb-4"
+                                    src="img/news-img-3.jpg"
+                                    alt=""
+                                />
+                                <h5 class="fs-4">
+                                    Kulturelle Ereignisse, die die Welt prägen
+                                </h5>
+                                <p class="fs-5">
+                                    Entdecken Sie die neuesten kulturellen
+                                    Trends und Veranstaltungen, die die
+                                    Weltbühne prägen. Von Theateraufführungen
+                                    bis hin zu neuen kulturellen Bewegungen –
+                                    diese Berichte halten Sie auf dem neuesten
+                                    Stand.
+                                </p>
+                                <div
+                                    class="bg-primary mb-3"
+                                    style="width: 60px; height: 5px"
+                                ></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- News End -->
+
+        <!-- Footer Start -->
+        <div
+            class="container-fluid bg-dark footer mt-5 pt-5 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-6 col-md-6">
+                        <h1 class="text-white mb-4">VibeKultur</h1>
+                        <p>
+                            Bei VibeKultur bieten wir spezialisierte Lösungen,
+                            um Anfängern zu helfen, im Bereich Kunst, Sport und
+                            Kultur erfolgreich zu sein. Mit jahrelanger
+                            Erfahrung stellen wir die Ressourcen, Unterstützung
+                            und Strategien bereit, die notwendig sind, um Ihre
+                            Leidenschaft in diesen Bereichen zu fördern und zu
+                            wachsen.
+                        </p>
+                        <div class="d-flex pt-2">
+                            <a
+                                class="btn btn-square border-end border-start"
+                                href="https://www.facebook.com/"
+                                ><i class="fab fa-facebook-f"></i
+                            ></a>
+                            <a
+                                class="btn btn-square border-end"
+                                href="https://x.com/"
+                                ><i class="fab fa-twitter"></i
+                            ></a>
+                            <a
+                                class="btn btn-square border-end"
+                                href="https://ua.linkedin.com/"
+                                ><i class="fab fa-linkedin-in"></i
+                            ></a>
+                            <a
+                                class="btn btn-square border-end"
+                                href="https://www.instagram.com/"
+                                ><i class="fab fa-instagram"></i
+                            ></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3">
+                        <h4 class="text-light mb-4">Kontaktinformationen</h4>
+                        <p>
+                            <i class="fa fa-map-marker-alt me-3"></i>
+                            Körnerstraße 27, 04107 Leipzig
+                        </p>
+                        <p><i class="fa fa-phone-alt me-3"></i>+493411497816</p>
+                        <p>
+                            <i class="fa fa-envelope me-3"></i>
+                            vibe_kultur@gmail.com
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-3">
+                        <h4 class="text-light mb-4">Navigation</h4>
+                        <p><a href="index.html">Startseite</a></p>
+                        <p>
+                            <a href="terms-of-use.html">Nutzungsbedingungen</a>
+                        </p>
+                        <p>
+                            <a href="privacy-policy.html"
+                                >Datenschutzrichtlinie</a
+                            >
+                        </p>
+                        <p>
+                            <a href="cookie-policy.html">Cookie-Richtlinie</a>
+                        </p>
+                        <p><a href="disclaimer.html">Haftungsausschluss</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center; font-size: 24px; color: #333">
+                    Cookies Zustimmen
+                </h2>
+            </div>
+
+            <div class="data">
+                <p style="font-size: 16px; color: #555">
+                    Um dir die bestmögliche Erfahrung auf unserer Website zu
+                    bieten, verwenden wir Cookies. Diese helfen uns, dir
+                    aktuelle Nachrichten und Ereignisse aus der Welt der Kunst,
+                    des Sports und der Kultur zu präsentieren. Weitere Details
+                    findest du in unserer
+                    <a
+                        href="datenschutzrichtlinie.html"
+                        style="
+                            color: #2c3e50;
+                            text-decoration: none;
+                            font-weight: bold;
+                        "
+                        >Datenschutzrichtlinie</a
+                    >
+                    oder der
+                    <a
+                        href="cookie-policy.html"
+                        style="
+                            color: #2c3e50;
+                            text-decoration: none;
+                            font-weight: bold;
+                        "
+                        >Cookie-Richtlinie</a
+                    >.
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button
+                    class="cookie-button"
+                    id="acceptBtn"
+                    style="
+                        background-color: #3498db;
+                        color: white;
+                        border: none;
+                        padding: 12px 24px;
+                        cursor: pointer;
+                        font-size: 16px;
+                        border-radius: 5px;
+                    "
+                >
+                    Akzeptieren
+                </button>
+                <button
+                    class="cookie-button"
+                    id="declineBtn"
+                    style="
+                        background-color: #e74c3c;
+                        color: white;
+                        border: none;
+                        padding: 12px 24px;
+                        cursor: pointer;
+                        font-size: 16px;
+                        border-radius: 5px;
+                    "
+                >
+                    Ablehnen
+                </button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+            ><i class="bi bi-arrow-up"></i
+        ></a>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/cookiebanner.js"></script>
+        <script>
+            const input = document.querySelector("#phone");
+            window.intlTelInput(input, {
+                loadUtils: () =>
+                    import(
+                        "https://cdn.jsdelivr.net/npm/intl-tel-input@25.2.0/build/js/utils.js"
+                    ),
+            });
+        </script>
+    </body>
+</html>
